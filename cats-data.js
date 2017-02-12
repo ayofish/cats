@@ -1,0 +1,19 @@
+var myJSONObject = {"cats": [
+        {"name": "abyssinian", "image": "abyssinian.jpg", "temperament": "active", "grooming": "easy", "energy": "high"},
+        {"name": "american bobtail", "image": "american-bobtail.jpg", "temperament": "affable", "grooming": "easy", "energy": "average"},
+        {"name": "australian mist", "image": "australian-mist.jpg", "temperament": "pleasant", "grooming": "easy", "energy": "high"},
+        {"name": "birman", "image": "", "temperament": "reserved", "grooming": "average", "energy": "average"},
+        {"name": "egyptian mau", "image": "", "temperament": "intelligent", "grooming": "easy", "energy": "high"},
+        {"name": "himalayan", "image": "", "temperament": "docile", "grooming": "difficult", "energy": "average"},
+        {"name": "javanese", "image": "", "temperament": "vocal", "grooming": "easy", "energy": "high"},
+        {"name": "manx", "image": "", "temperament": "even-tempered", "grooming": "average", "energy": "average"},
+        {"name": "napoleon", "image": "", "temperament": "charming", "grooming": "high", "energy": "average"},
+        {"name": "persian", "image": "", "temperament": "passive", "grooming": "high", "energy": "average"},
+        {"name": "peterbald", "image": "", "temperament": "demanding", "grooming": "average", "energy": "average"},
+        {"name": "ragdoll", "image": "", "temperament": "placid", "grooming": "easy", "energy": "low"},
+        {"name": "ragamuffin", "image": "", "temperament": "laid-back", "grooming": "average", "energy": "average"},
+        {"name": "scottish fold", "image": "", "temperament": "easy nature", "grooming": "average", "energy": "average"},
+        {"name": "siamese", "image": "", "temperament": "active", "grooming": "easy", "energy": "high"},
+        {"name": "singapura", "image": "", "temperament": "affectionate", "grooming": "easy", "energy": "high"}
+    ]
+};

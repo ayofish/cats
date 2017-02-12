@@ -1,0 +1,30 @@
+<div class="col-lg-12">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <span class="navbar-text pull-left">{{vm.cats.length}} of {{vm.catsData.length}}</span>
+        <form class="navbar-form pull-right">
+            <div class="form-group">
+                <label>Filters By: </label>
+                <select ng-model="vm.selectedTemperament" ng-options="temperament for temperament in vm.temperaments" ng-change="vm.filterBySelection()">
+                  <option value="">Temperament</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Grooming:</label>
+                <select ng-model="vm.selectedGrooming" ng-options="grooming for grooming in vm.groomings" ng-change="vm.filterBySelection()">
+                  <option value="">Grooming</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Energy:</label>
+                <select ng-model="vm.selectedEnergy" ng-options="energy for energy in vm.energys" ng-change="vm.filterBySelection()">
+                  <option value="">Energy</option>
+                </select>
+            </div>
+        </form>
+    </nav>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12">
+    <div class="col-lg-3 col-md-3 col-sm-3" ng-repeat="catData in vm.cats">
+        <cat name="{{catData.name}}" image="{{catData.image}}" temperament="{{catData.temperament}}" grooming="{{catData.grooming}}" energy="{{catData.energy}}"></cat>
+    </div>
+</div>
