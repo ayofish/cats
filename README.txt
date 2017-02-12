@@ -1,3 +1,15 @@
+
+Instructions:
+
+1) open your terminal
+2) clone this repo
+3) cd into this directory
+4) npm install
+5) npm start
+This will open a new browser window showing the app.
+
+this implements angular, es6 and webpack
+
 Front-End Code Test
 
 The challenge is to convert code-test.psd into HTML. Our recommendation is to not spend too much time trying to get it perfect,
