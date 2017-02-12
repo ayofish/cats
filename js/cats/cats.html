@@ -1,6 +1,8 @@
 <div class="col-lg-12">
     <nav class="navbar navbar-default navbar-fixed-top">
+        <!-- just show the count -->
         <span class="navbar-text pull-left">{{vm.cats.length}} of {{vm.catsData.length}}</span>
+        <!-- the filters -->
         <form class="navbar-form pull-right">
             <div class="form-group">
                 <label>Filters By: </label>
@@ -23,7 +25,9 @@
         </form>
     </nav>
 </div>
+
 <div class="col-lg-12 col-md-12 col-sm-12">
+    <!-- repeat based on the data in the cats attribute-->
     <div class="col-lg-3 col-md-3 col-sm-3" ng-repeat="catData in vm.cats">
         <cat name="{{catData.name}}" image="{{catData.image}}" temperament="{{catData.temperament}}" grooming="{{catData.grooming}}" energy="{{catData.energy}}"></cat>
     </div>

@@ -21,10 +21,6 @@ module.exports = {
 			//import html as string
 			test: /\.html$/,
 			loader: 'raw-loader'
-		}, {
-			//lets move all the assets as well
-			test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)([\?]?.*)$/,
-			loader: 'file-loader'
 		}]
 	}
 }
